@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/xoon profile-Photoroom.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Anupam Saha</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Anupam Saha</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/xoon profile-Photoroom.jpg" alt="" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Anupam Saha</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/drive/folders/1SsamietDw8618B59_vCP7_7Si9rkXbiF?usp=sharing')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/anupamsaha02/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/anuragsaha02'"
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.y2Sus9S7tvco3h6uG8bH8AHaHa?rs=1&pid=ImgDetMain"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://wa.me/7002081304'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="assets/WhatsApp Image 2024-07-25 at 15.57.15_a719910a.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Code Club BVEC<br /><strong>Chief Moderator</strong></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                Bachelor of Technology in Computer Science Engineering<br />
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello! <strong>I’m Anupam Saha</strong>, a 3rd-year undergraduate
+              engineering student at Barak Valley Engineering College.
+              Passionate about technology and innovation, I am constantly
+              exploring new skills and projects to enhance my knowledge and
+              expertise. I have a keen interest in front-end development,
+              creating responsive and user-friendly web applications. Whether
+              it’s coding, participating in tech clubs, I am dedicated to making
+              the most of my academic journey. Welcome to my portfolio!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="service__container">
+        <h2 class="service__title"></h2>
+        <div class="service__wrapper">
+          <!-- Service Box -->
+          <div class="service__Box">
+            <div class="icon">
+              <img src="image/icon-1.png" alt="icon" />
+            </div>
+            <div class="content">
+              <h4 class="title">Html</h4>
+            </div>
+          </div>
+          <!-- Service Box -->
+          <div class="service__Box">
+            <div class="icon">
+              <img src="image/icon-2.png" alt="icon" />
+            </div>
+            <div class="content">
+              <h4 class="title">Css</h4>
+            </div>
+          </div>
+          <!-- Service Box -->
+          <div class="service__Box">
+            <div class="icon">
+              <img src="image/icon-3.png" alt="icon" />
+            </div>
+            <div class="content">
+              <h4 class="title">Javascript</h4>
+            </div>
+          </div>
+          <!-- Service Box -->
+          <div class="service__Box">
+            <div class="icon">
+              <img src="image/icon-6.png" alt="icon" />
+            </div>
+            <div class="content">
+              <h4 class="title">React</h4>
+            </div>
+          </div>
+          <!-- Service Box -->
+          <div class="service__Box">
+            <div class="icon">
+              <img
+                src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png"
+                alt="icon"
+              />
+            </div>
+            <div class="content">
+              <h4 class="title">Figma</h4>
+            </div>
+          </div>
+          <!-- Service Box -->
+          <div class="service__Box">
+            <div class="icon">
+              <img
+                src="https://img.pikbest.com/origin/10/41/85/35HpIkbEsTU62.png!sw800"
+                alt="icon"
+              />
+            </div>
+            <div class="content">
+              <h4 class="title">Flutter</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:anupamtospace002@gmail.com"
+              >anupamtospace002@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/anupamsaha02/">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Anupam Saha. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
